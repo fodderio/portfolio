@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-family: 'Noto Sans Display', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  height: 100vh;
+}
+
+section#brief {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: crimson;
+
+  position: fixed;
+
+  align-items: center;
+  justify-content: center;
+}
+
+section#brief div {
+  width: 80%;
+  text-align: center;
+}
+
+section#brief div h1 {
+  color: white;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+section#brief div h2 {
+   color: #e5b4a2;
+}
+
+section#brief div p {
+  margin-top: 1em;
+}
+
+section#brief div img{
+ height: 150px;
+ border-radius: 100%;
+}
+
+section#works {
+  width: 65%;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+
+  font-size: 4em;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.work:first-child {
+  background-color: yellow;
+}
+
+.work:nth-child(2) {
+  background-color: purple;
+}
+
+.work:nth-child(3) {
+  background-color: greenyellow;
+}
+
+.work:nth-child(4) {
+  background-color: blue;
+}
+
+footer {
+  display: flex;
+  height: 120px;
+  color: #ffffff;
+  text-align:center;
+  padding: 2em 0;
+  
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: brown;
+}
