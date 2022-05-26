@@ -19,7 +19,7 @@ section#brief {
   width: 35%;
   display: flex;
   flex-direction: column;
-  background-color: crimson;
+  background-color: #ecdde0;
 
   position: fixed;
 
@@ -33,13 +33,12 @@ section#brief div {
 }
 
 section#brief div h1 {
-  color: white;
   font-size: 2.5em;
-  text-transform: uppercase;
+  font-weight: 900;
 }
 
 section#brief div h2 {
-   color: #e5b4a2;
+   color: #803216;
 }
 
 section#brief div p {
