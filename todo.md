@@ -8,3 +8,8 @@
 
 - []  Linking to html files in other project folders
 - []  
+
+## Read up
+
+- []  Creating HTML tables
+- []  CSS !important

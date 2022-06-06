@@ -1,0 +1,27 @@
+.jumbotron {
+  background: #1FA2FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 5em 2em;
+  margin-bottom: 2em;
+  display: flex;
+  place-content: center;
+}  
+
+.jumbotron h1 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #230941;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.card {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.btn-primary {
+  background-color: midnightblue;
+}
